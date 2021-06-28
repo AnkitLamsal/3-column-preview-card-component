@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    display: block;
+    border-radius: 25px;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10% 10%;
+    border-radius: 20px;
+}
+
+.container_1{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+.container_1 a{
+    margin-top:400px; 
+    padding: 10px;
+    width:30%;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border: 2px hsl(0, 0%, 95%) solid;
+}
+.container_1 a:hover{
+    background: transparent;
+    /* background-color: hsl(31, 77%, 52%); */
+    color:hsl(0, 0%, 95%);
+    border-radius: 25px;
+}
+
+.container_2 {
+    background-color:hsl(184, 100%, 22%);
+}
+.container_2 a{
+    padding: 10px;
+    width:30%;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border: 2px hsl(0, 0%, 95%) solid;
+
+}
+.container_2 a:hover{
+    background: transparent;
+    /* background-color: hsl(31, 77%, 52%); */
+    color:hsl(0, 0%, 95%);
+    border-radius: 25px;
+}
+
+.container_3 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(179, 100%, 13%);
+}
+.container_3 a{
+    padding: 10px;
+    width:30%;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border: 2px hsl(0, 0%, 95%) solid;
+
+}
+.container_3 a:hover{
+    background: transparent;
+    /* background-color: hsl(31, 77%, 52%); */
+    color:hsl(0, 0%, 95%);
+    border-radius: 25px;
+}
+.stack{
+    padding:20px;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.stack a{
+
+}
+.svg{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20% 20% 2.5% 20%;
+    margin-bottom: 2.5%;}
+.svg_sedan{
+    background: url(../images/icon-sedans.svg);
+    background-repeat: no-repeat;
+}
+.svg_suv{
+    background: url(../images/icon-suvs.svg);
+    background-repeat: no-repeat;
+}
+.svg_luxury{
+    background: url(../images/icon-luxury.svg);
+    background-repeat: no-repeat;
+
+}
+.stack h2,.stack p,.stack a{
+    margin:20px;
+}
